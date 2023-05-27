@@ -1,0 +1,36 @@
+.Overview__container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: -8rem;
+
+  .Overview__content{
+    background: $backgroundDetails;
+    padding: 1.9rem 2rem;
+    border-radius: 0.25rem;
+    color: $textColorDetails;
+
+    header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      h3{
+        font-weight: 400;
+      }
+    }
+
+    strong{
+      display: block;
+      margin-top: 1rem;
+      font-size: 2rem;
+      font-weight: 500;
+      line-height: 3rem;
+      color: $textColor;
+    }
+
+    &.background{
+      background: $green;
+    }
+  }
+}

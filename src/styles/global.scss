@@ -1,0 +1,53 @@
+$background: #121215;
+$header: #1F1F23;
+$backgroundDetails: #29292E;
+$textColor: #FFFFFF;
+$textColorDetails: #C4C4CC;
+$iconsColorRed: #F02C2C;
+$iconsColorGreen: #57B22C;
+$green: #15680D;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  @media(max-width: 1080px){
+    font-size: 93.75%;
+  }
+
+  @media(max-width: 720px){
+    font-size: 87.5%;
+  }
+}
+
+body, input, textarea, button{
+  font-weight: 500;
+  font-family: 'Archivo', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, strong{
+  font-weight: 600;
+}
+
+body{
+  background: $background;
+  color: $textColor;
+  -webkit-font-smoothing: antialiased;
+}
+
+button{
+  cursor: pointer;
+}
+
+[disabled]{
+ opacity: 0.6;
+ cursor: not-allowed;
+}
+
+@import '../components/Header/Header.scss';
+@import '../components/Overview/Overview.scss';
+@import '../components/Dashboard/Dashboard.scss';
+@import '../components/FinancesTable/Finances.scss';
