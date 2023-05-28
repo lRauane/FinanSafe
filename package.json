@@ -9,15 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-dialog": "^1.0.4",
     "@types/node": "20.2.5",
     "@types/react": "18.2.7",
     "@types/react-dom": "18.2.4",
+    "@types/react-modal": "^3.16.0",
+    "axios": "^1.4.0",
+    "classnames": "^2.3.2",
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.4",
     "lucide-react": "^0.221.0",
+    "miragejs": "^0.1.47",
     "next": "13.4.4",
+    "polished": "^4.2.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-modal": "^3.16.1",
     "sass": "^1.62.1",
     "typescript": "5.0.4"
   }

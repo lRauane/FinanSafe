@@ -5,7 +5,7 @@ export function DashBoard(){
   return(
     <main>
       <Overview />
-      <FinancesTable />
+      <FinancesTable  />
     </main>
   )
 }

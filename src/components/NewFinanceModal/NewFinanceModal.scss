@@ -1,0 +1,130 @@
+.react-modal-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.react-modal-content {
+  width: 100%;
+  max-width: 35rem;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+
+  background-color: #202024;
+  padding: 3rem;
+  border-radius: 0.25rem;
+}
+
+.react-modal-close {
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+  border: 0;
+  background: transparent;
+  transition: filter 0.2s;
+  &:hover {
+    filter: brightness(0.9);
+  }
+}
+
+form {
+  h2 {
+    color: $textColorDetails;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  input {
+    width: 100%;
+    padding: 0 1.5rem;
+    height: 4rem;
+    border-radius: 0.25rem;
+    background: #121214;
+    color: #ffffff;
+    border: 1px solid #d7d7d7;
+
+    font-weight: 400;
+    font-size: 1rem;
+
+    &::placeholder {
+      color: $textColorDetails;
+    }
+
+    & + input {
+      margin-top: 1rem;
+    }
+  }
+
+  button[type="submit"] {
+    width: 100%;
+    padding: 0 1.5rem;
+    height: 4rem;
+    background: $green;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 0.25rem;
+    border: 0;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
+}
+
+.transaction-type-container {
+  margin: 1rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+$colors: (
+  color1: green,
+  color2: red,
+);
+
+
+@mixin button-styles($isActive, $activeColor) {
+  height: 4rem;
+  border: 1px solid #d7d7d7;
+  border-radius: 0.25rem;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.2s;
+
+  &:hover {
+    border-color: #999797;
+  }
+
+  img {
+    width: 20px;
+    height: 20px;
+  }
+
+  span {
+    display: inline-block;
+    margin-left: 1rem;
+    font-size: 1rem;
+    color: $textColorDetails;
+  }
+}
+
+.radio-box {
+  @include button-styles(false, null); 
+
+  &.active {
+    @include button-styles(true, map-get($colors, color1, color2)); 
+    background: #66666675;
+  }
+}
+
