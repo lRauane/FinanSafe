@@ -1,5 +1,3 @@
-"use client"
-
 import '../styles/global.scss'
 import { Archivo } from 'next/font/google'
 import { createServer, Model } from 'miragejs';
