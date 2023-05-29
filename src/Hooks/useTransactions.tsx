@@ -1,6 +1,5 @@
-"use client"
-import { api } from '@/services/api';
 import { ReactNode, createContext, useEffect, useState, useContext } from 'react';
+import { api } from '../services/api';
 
 interface Transaction {
   id: number;
