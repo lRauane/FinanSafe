@@ -57,11 +57,3 @@ export function Overview() {
     </div>
   )
 }
-
-// TODO: Formatação de números: INTl
-// TODO: usar um reduce para calcular o que entra e sai. Além de criar um hook de context
-
-// npm install lucide-react
-// circle-dollar-sign
-// arrow-up-narrow-wide
-// arrow-down-narrow-wide
