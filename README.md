@@ -33,7 +33,7 @@ Tabela de conteúdos
 
 ## 💻 Sobre o projeto <a name="sobre-o-projeto"></a>
 
- 💰 aplicação web moderna e intuitiva que visa ajudar os usuários a gerenciar suas finanças pessoais de forma eficiente e organizada. Com essa combinação de tecnologias robustas, o projeto oferece uma experiência de usuário agradável, além de garantir um código limpo e de fácil manutenção.
+💰 aplicação web moderna e intuitiva que visa ajudar os usuários a gerenciar suas finanças pessoais de forma eficiente e organizada. Com essa combinação de tecnologias robustas, o projeto oferece uma experiência de usuário agradável, além de garantir um código limpo e de fácil manutenção.
 ---
 
 ## ⚙️ Funcionalidades <a name="funcionalidades"></a>
