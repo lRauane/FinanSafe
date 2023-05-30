@@ -51,7 +51,7 @@ O layout da aplicação está disponível no Figma, como um projeto privado.
 
 
 ### Web <a name="layout-web"></a>
-
+A hospedagem do site está em: [Vercel](https://finan-safe.vercel.app/)
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="Screenshot web 1" src="https://github.com/lRauane/FinanSafe/assets/102835801/9a219981-4c6c-4c06-af4b-6cc9d4e0639a">
   <img alt="Screenshot web 1" src="https://github.com/lRauane/FinanSafe/assets/102835801/b0faeaa6-d2f7-4132-9a0d-d053e12a8a74">
@@ -118,7 +118,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[MirajeJs](https://miragejs.com/)**
 -   **[Axios](https://github.com/axios/axios)**
 
-> Veja o arquivo  [package.json](https://github.com/lRauane/cardapio-digital/blob/main/package.json)
+> Veja o arquivo  [package.json](https://github.com/lRauane/FinanSafe/blob/main/package.json)
 
 
 #### **Utilitários** <a name="utilitarios"></a>
@@ -139,13 +139,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ---
 
-## 🦸 Autor <a name="autor"></a>
-
-<a href="https://github.com/lRauane">
- <br />
- <sub><b>Rauane Lima</b></sub></a>
- <br />
-
+## 🦸 Autor <a name="autor">Rauane Lima</a>
+[github](https://github.com/lRauane/)
 [linkedln](https://www.linkedin.com/in/rauanee/)
 
 ---
